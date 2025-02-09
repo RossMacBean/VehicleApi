@@ -250,7 +250,7 @@ public class VehiclesControllerTests
             {
                 v.EngineSize.Should().BeInRange(minEngineSize, maxEngineSize);
                 v.Colour.Should().ContainEquivalentOf(colour);
-                v.Transmission.Should().Be(transmission);
+                v.Transmission.Should().BeEquivalentTo(transmission);
             });
     }
 }

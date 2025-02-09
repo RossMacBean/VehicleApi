@@ -93,7 +93,7 @@ public class QueryVehiclesRequest
             .WithCo2Level(MinCo2Level, MaxCo2Level)
             .WithTransmission(Transmission)
             .WithFuelType(FuelType)
-            .WithEngineSize(MinCo2Level, MaxCo2Level)
+            .WithEngineSize(MinEngineSize, MaxEngineSize)
             .WithDateFirstRegistered(MinDateFirstRegistered, MaxDateFirstRegistered)
             .WithMileage(MinMileage, MaxMileage);
         
