@@ -8,9 +8,9 @@ Most endpoints are implemented by directly calling the injected repository, but 
 ## Building and Running the solution
 The solution can be ran with the following command
 ```
-dotnet run
+dotnet run --project Vehicles.Api
 ```
-This will host the API at localhost:7097
+This will host the API at https://localhost:7097
 
 ## Running the tests
 The tests can be ran with the following command
